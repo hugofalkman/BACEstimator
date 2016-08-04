@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75DE96A77546578EB764EB76 /* Pods_BACEstimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8ADAAA29E3B276418248A3 /* Pods_BACEstimator.framework */; };
 		B1D527AD1D53F00900280D91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D527AC1D53F00900280D91 /* AppDelegate.swift */; };
 		B1D527AF1D53F00900280D91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D527AE1D53F00900280D91 /* ViewController.swift */; };
 		B1D527B21D53F00900280D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D527B01D53F00900280D91 /* Main.storyboard */; };
 		B1D527B41D53F00900280D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D527B31D53F00900280D91 /* Assets.xcassets */; };
 		B1D527B71D53F00900280D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D527B51D53F00900280D91 /* LaunchScreen.storyboard */; };
+		B1D527BF1D53F1C100280D91 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1D527BE1D53F1C100280D91 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51833296E8D68CA2DD93902D /* Pods-BACEstimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACEstimator.release.xcconfig"; path = "Pods/Target Support Files/Pods-BACEstimator/Pods-BACEstimator.release.xcconfig"; sourceTree = "<group>"; };
+		7104B0AB1B634FAA5C8B919D /* Pods-BACEstimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BACEstimator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BACEstimator/Pods-BACEstimator.debug.xcconfig"; sourceTree = "<group>"; };
 		B1D527A91D53F00900280D91 /* BACEstimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BACEstimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D527AC1D53F00900280D91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1D527AE1D53F00900280D91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		B1D527B31D53F00900280D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1D527B61D53F00900280D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1D527B81D53F00900280D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D527BE1D53F1C100280D91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EF8ADAAA29E3B276418248A3 /* Pods_BACEstimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BACEstimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75DE96A77546578EB764EB76 /* Pods_BACEstimator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACFD1A373EEDB29863946456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF8ADAAA29E3B276418248A3 /* Pods_BACEstimator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B1D527A01D53F00900280D91 = {
 			isa = PBXGroup;
 			children = (
 				B1D527AB1D53F00900280D91 /* BACEstimator */,
 				B1D527AA1D53F00900280D91 /* Products */,
+				C229176EBF359941CCE37F33 /* Pods */,
+				ACFD1A373EEDB29863946456 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +76,19 @@
 				B1D527B01D53F00900280D91 /* Main.storyboard */,
 				B1D527B31D53F00900280D91 /* Assets.xcassets */,
 				B1D527B51D53F00900280D91 /* LaunchScreen.storyboard */,
+				B1D527BE1D53F1C100280D91 /* GoogleService-Info.plist */,
 				B1D527B81D53F00900280D91 /* Info.plist */,
 			);
 			path = BACEstimator;
+			sourceTree = "<group>";
+		};
+		C229176EBF359941CCE37F33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7104B0AB1B634FAA5C8B919D /* Pods-BACEstimator.debug.xcconfig */,
+				51833296E8D68CA2DD93902D /* Pods-BACEstimator.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1D527BB1D53F00900280D91 /* Build configuration list for PBXNativeTarget "BACEstimator" */;
 			buildPhases = (
+				1C65DEE622223D6D9C0854A5 /* [CP] Check Pods Manifest.lock */,
 				B1D527A51D53F00900280D91 /* Sources */,
 				B1D527A61D53F00900280D91 /* Frameworks */,
 				B1D527A71D53F00900280D91 /* Resources */,
+				159FAE05826769BB7D03A0F4 /* [CP] Embed Pods Frameworks */,
+				702343E60F3FDA933B94884C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,12 +153,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1D527B71D53F00900280D91 /* LaunchScreen.storyboard in Resources */,
+				B1D527BF1D53F1C100280D91 /* GoogleService-Info.plist in Resources */,
 				B1D527B41D53F00900280D91 /* Assets.xcassets in Resources */,
 				B1D527B21D53F00900280D91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159FAE05826769BB7D03A0F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BACEstimator/Pods-BACEstimator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C65DEE622223D6D9C0854A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		702343E60F3FDA933B94884C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BACEstimator/Pods-BACEstimator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B1D527A51D53F00900280D91 /* Sources */ = {
@@ -249,6 +328,7 @@
 		};
 		B1D527BC1D53F00900280D91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7104B0AB1B634FAA5C8B919D /* Pods-BACEstimator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BACEstimator/Info.plist;
@@ -260,6 +340,7 @@
 		};
 		B1D527BD1D53F00900280D91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51833296E8D68CA2DD93902D /* Pods-BACEstimator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BACEstimator/Info.plist;
@@ -288,6 +369,7 @@
 				B1D527BD1D53F00900280D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
