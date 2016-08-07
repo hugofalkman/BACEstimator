@@ -45,7 +45,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Swiffer" id="IA1-ZV-447">
-                        <barButtonItem key="leftBarButtonItem" title="Login" id="hRU-eo-gWg"/>
+                        <barButtonItem key="leftBarButtonItem" title="Login" id="hRU-eo-gWg">
+                            <connections>
+                                <action selector="loginAndSignUp:" destination="KPJ-La-1dl" id="XKg-S8-dcv"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="c6E-hR-bem">
                             <connections>
                                 <action selector="addSweet:" destination="KPJ-La-1dl" id="Jc0-D7-Kz2"/>
